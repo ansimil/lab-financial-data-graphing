@@ -1,2 +1,31 @@
-<h1>{{title}}</h1>
-<p>Welcome to {{title}}</p>
+<h1>Charts of Data</h1>
+<p>Check out these charts of data</p>
+
+
+<label for="date">Start Date</label>
+<input class="startDate inputVal" type="date" value="2018-10-10">
+
+<label for="date">End Date</label>
+<input class="endDate inputVal" type="date" value="2020-10-10">
+
+<select class="currency inputVal"name="currency" id="currency">
+<option value="usd">USD</option>
+<option value="eur">EUR</option>
+<option value="gbp">GBP</option>
+<option value="aud">AUD</option>
+</select>
+
+<button type="submit">Update</button>
+
+<div>
+    <h3 class="minVal">Min Value:</h3>
+    <h3 class="maxVal"> Max Value:</h3>
+</div>
+
+<div>
+
+         <canvas id="myChart">
+            
+         </canvas>
+
+</div>
